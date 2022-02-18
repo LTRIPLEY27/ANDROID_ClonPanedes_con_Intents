@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ANDROID_ClonPanedes_con_Intents</string>
+    <string name="titulo">Autocars del Penedès</string>
+    <string name="contact">Contacto</string>
+    <string name="horario">Horarios</string>
+    <string name="services">Servicios</string>
+    <string name="about">BENVINGUT</string>
+    <string name="historia">A Autocars del Penedès som una companyia familiar de 4 generacions, il·lusionats i apassionats pel que fem. Amb 10 valors que considerem imprescindibles per la feina que fem. Tenim una actitud curiosa, creativa i innovadora dirigida cap a una mobilitat col·lectiva i equilibrada. Enfocats per aconseguir no només l’èxit de la companyia, sinó també l’èxit de cada persona,dins i fora d’aquesta, oferint solucions flexibles i socials. La nostra organització multidisciplinària, orgànica i líquida genera un ecosistema sostenible i evolutiu per la millora de les persones.Incloure les nostres tasques dins una acció sistèmica i al intentar recollir les sensacions intangibles d’usuaris i clients, ens permet ser molt propers i poder conèixer la realitat i necessitats dels serveis i les persones.A Autocars del Penedès fem de la transparència, la comunicació i la proximitat una forma de ser,juntament amb una condició humana híbrida i responsable. Positivitat per tothom. Més x Més.Visió
+        La llibertat de la mobilitat equilibrada i col·lectiva.Missió Perseverar per oferir la connexió necessària per cada persona.</string>
+</resources>
