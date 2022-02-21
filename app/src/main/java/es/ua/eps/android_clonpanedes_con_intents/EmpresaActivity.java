@@ -1,12 +1,14 @@
 package es.ua.eps.android_clonpanedes_con_intents;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.os.Bundle;
 
-public class Empresa extends MainActivity{
+public class EmpresaActivity extends AppCompatActivity {
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_empresa);
+        setContentView(R.layout.activity_empresa2);
     }
-
 }

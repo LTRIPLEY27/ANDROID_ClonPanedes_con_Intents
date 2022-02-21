@@ -2,6 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="es.ua.eps.android_clonpanedes_con_intents">
 
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,6 +13,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ANDROID_ClonPanedes_con_Intents">
+        <activity
+            android:name=".SoundsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".FavViewActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ServicesActivity"
+            android:exported="true" />
+        <activity
+            android:name=".HorariosActivity"
+            android:exported="true" />
+        <activity
+            android:name=".WebViewActivity"
+            android:exported="true" />
+        <activity
+            android:name=".EmpresaActivity"
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

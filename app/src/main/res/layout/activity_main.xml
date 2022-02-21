@@ -66,6 +66,24 @@
             android:layout_marginRight="30dp"
             android:text="@string/horario" />
 
+        <Button
+            android:id="@+id/favorites"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:text="@string/favorites" />
+
+        <Button
+            android:id="@+id/horrorMe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:text="@string/catalog" />
+
        <!--  <WebView
             android:layout_width="match_parent"
             android:layout_height="match_parent"

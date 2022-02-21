@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SoundsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/catalog"
+            android:layout_marginTop="25dp"
+            android:textColor="@color/black"
+            android:textColorLink="@color/black"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/bones"
+            android:layout_marginTop="50dp"
+            android:textColor="@color/black"
+            android:textColorLink="@color/black"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/bones"
+            android:layout_marginTop="15dp"
+            android:layout_width="157dp"
+            android:layout_height="wrap_content"
+            android:text="@string/breaki" />
+
+        <Button
+            android:id="@+id/stopBones"
+            android:layout_marginTop="15dp"
+            android:layout_width="157dp"
+            android:layout_height="wrap_content"
+            android:text="@string/stop" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/horror"
+            android:layout_marginTop="50dp"
+            android:textColor="@color/black"
+            android:textColorLink="@color/black"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/gliss"
+            android:layout_marginTop="15dp"
+            android:layout_width="157dp"
+            android:layout_height="wrap_content"
+            android:text="@string/soundie" />
+
+        <Button
+            android:id="@+id/stopGliss"
+            android:layout_marginTop="15dp"
+            android:layout_width="157dp"
+            android:layout_height="wrap_content"
+            android:text="@string/stop" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/cinematic"
+            android:layout_marginTop="50dp"
+            android:textColor="@color/black"
+            android:textColorLink="@color/black"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/cinematic"
+            android:layout_marginTop="15dp"
+            android:layout_width="157dp"
+            android:layout_height="wrap_content"
+            android:text="@string/cine" />
+        <Button
+            android:id="@+id/stopHorror"
+            android:layout_marginTop="15dp"
+            android:layout_width="157dp"
+            android:layout_height="wrap_content"
+            android:text="@string/stop" />
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
